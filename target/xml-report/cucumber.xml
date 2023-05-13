@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="16.758">
+    <testcase classname="Techproeducation Title Testi" name="TC01_sayfanin_baslik_testi" time="16.335">
+        <system-out>
+            <![CDATA[Given "techprourl" sayfasina gidilir........................................passed
+When sayfa basligi yazdirilir...............................................passed
+Then sayfa basliginda "Bootcamps" oldugu dogrulanir.........................passed
+And sayfa kapatilir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
