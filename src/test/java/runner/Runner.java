@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
                 "html:TestOutput/default-cucumber-reports.html",
                 "json:target/json-reports/cucumber.json",
                 "junit:target/xml-report/cucumber.xml",
-//                "rerun:target/failedRerun.txt",
+                "rerun:target/failedRerun.txt",
 //                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
         },
         monochrome = true,
@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
 
         features="src/test/resources/features",
         glue= {"stepdefinitions", "hooks"},
-        tags="@Techprotest"  ,
+        tags="@GRID"  ,
 
         dryRun= false
 
